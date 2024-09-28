@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Register Page</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="brand-title">HI-Toyz</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="event.html">Events</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- register section start -->
+  <div class="register">
+    <main>
+      <h2>Sign Up</h2>
+      <form name="registrationForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+  
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <div class="cou">
+          <p>By checking the box below, you agree to HI-Toyz <br>Conditions of Use and Privacy Notice.</p>
+        </div>
+        <div class="agreement">
+          <label for="agreement">Agree to Regulations</label>
+          <input type="checkbox" id="agreement" name="agreement" required>
+        </div>
+        <input type="submit" value="Sign Up">
+      </form>
+    </div>
+  </main>  
+  <!-- register section end -->
+  <h4>this website created by Luthfi Hadi 2602122411</h3>
+
+  <footer>
+    <div class="footer">
+      <p>&copy; 2023 HI-Toyz. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
