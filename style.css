@@ -100,7 +100,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("../image/herobg.jpg");
+  background-image: url("./image/herobg.jpg");
   background-size: cover;
   background-position: relative;
 }
